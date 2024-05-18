@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Validation</title>
+  <script>
+    function validateForm() {
+      var name = document.forms["myForm"]["name"].value;
+      var email = document.forms["myForm"]["email"].value;
+
+      if (name == "") {
+        alert("Name must be filled out");
+        return false;
+      }
+
+      if (email == "") {
+        alert("Email must be filled out");
+        return false;
+      }
+
+      // Additional validation checks can be added here
+
+      return true;
+    }
+  </script>
+</head>
+<body>
+  <h1>Form Validation</h1>
+  <form name="myForm" onsubmit="return validateForm()" method="post">
+    <label for="name">Name:</label>
+    <input type="text" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="text" name="email"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

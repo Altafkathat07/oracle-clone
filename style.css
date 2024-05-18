@@ -1,0 +1,2235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+ 
+    font-family: 'Poppins', sans-serif;
+    background-image: url("download.jpg");
+}
+
+
+header {
+    position: relative;
+
+}
+
+#search {
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 30%;
+}
+.racle:hover{
+    text-decoration: none;
+}
+
+
+
+.ora {
+    font-family: cursive;
+    letter-spacing: 1px;
+    color: rgb(252, 71, 0);
+    text-decoration: none;
+    font-size: 25px;
+    left: 5%;
+}
+.ora:hover{
+    text-decoration: none;
+}
+.form1 {
+    position: absolute;
+    right: 5%;
+}
+
+li {
+    font-size: 19px;
+    color: white;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+#viwe {
+    font-size: 15px;
+    background-color: rgb(22, 22, 22);
+    border: none;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.sales {
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    width: 150px;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.sales a{
+    color: white;
+    top: 5%;
+    font-weight: bold;
+    font-size: 13px;
+    position: absolute;
+}
+.sales a:hover{
+    text-decoration: none;
+}
+
+#icon3 {
+    display: none;
+}
+
+#icon4 {
+    display: none;
+}
+
+#icon5 {
+    display: none;
+}
+
+
+#main_img{
+    position: relative;
+    width: 80%;
+    height: 500px;
+
+}
+
+.img1{
+    width: 70%;
+    height: 370px;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    
+}
+.main_img_inner{
+    width: 50%;
+    height: 370px;
+    background-color: white;
+    position: absolute;
+    top: 8%;
+    left: 55%;
+    text-align: center;
+    
+}
+#but{
+    height: 5px;
+    border: 1px solid black;
+    width: 70px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#play{
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#Annou{
+    width: 200px;
+    height: 30px;
+    font-size: 11px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    border: none;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+
+}
+
+
+.span1{
+    color: black;
+    font-size: 25px;
+    font-family: serif;
+    padding: 10px;
+}
+.span_Div{
+    width: 80%;
+    text-align: center;
+    position:absolute;
+    left: 10%;
+}
+.span2{
+    color: gray;
+    font-size: medium;
+    
+}
+/* [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    height: 50px;
+    width: 70px;
+    top: 300px;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    height: 5px;
+    width: 70px;
+    top: 300px;
+    color: rgb(54, 53, 53);
+} */
+#info1{
+   background-image: url("rh02-panel2.jpg");
+   background-size: 100% 100%;
+    color: white;
+    height: 250px;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+   
+}
+.info2{
+   
+ 
+    color: white;
+    height: 90%;
+    width: 50%;
+    text-align: end;
+
+
+}
+
+hr{
+    width: 100%;
+}
+.ora1{
+    font-size: 16px; 
+    color: white;
+
+}
+.ora2{
+    font-size: 21px; 
+    color: white;
+
+}
+.ora3{
+    font-size: 12px; 
+    color: white;
+
+}
+
+.but1{
+    width: 150px;
+    height: 40px;
+    font-size: small;
+    color: black;
+    border-radius: 5px;
+    border: 2px white solid;
+    background-color: white;
+}
+
+#info11{
+    background-image: url("rh02-panel1.jpg");
+    background-size: 100% 100%;
+     color: white;
+     height: 250px;
+     z-index: -1;
+     display: flex;
+     justify-content:center;
+     align-items: start;
+     text-align: start;
+    
+ }
+ .info12{
+    
+  
+     color: white;
+     height: 90%;
+     width: 50%;
+     text-align: start;
+     margin-top: 5%;
+ } 
+ .bank{
+    font-size: 22px;
+    font-weight: bolder;
+    width: 100%;
+    color: black
+ }
+ .learn{
+    font-size: 13px;
+    width: 100%;
+    color: black
+ }
+ .But a{
+     text-decoration: none;
+ }
+  a:hover{
+    text-decoration: underline;
+ }
+ .img_div1{
+    width: 100%;
+ }
+ .cloudMain{
+    background-color: rgb(234, 231, 231);
+ }
+
+ .cloud1{
+    font-size: 35px;
+    font-family: serif;
+    word-spacing: 5px;
+ }
+ .cloud2{
+    background-color: rgb(230, 230, 0);
+    width: 50px;
+    height: 5px;
+
+ }
+ .cloud3{
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .cloud4{
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+ }
+ .cloud6{
+    font-size: 13px;
+    color: black;
+ }
+ div a{
+    text-decoration: none;
+ }
+.acco1{
+    background-color: rgb(210, 202, 202);
+    padding-top: 10px;
+    border-radius: 10px ;
+    padding-bottom: 10px;
+}
+#bod{
+  border-radius: 7px;
+  border: 1px solid black;
+  overflow: hidden;
+  font-size: small;
+}
+#size{
+    font-size: medium;
+}
+.fon{
+    font-size: 15px;
+    padding: 2px 5px  ;
+}
+.fon2{
+    font-size: 15px;
+    padding: 11px 5px;
+}
+.fon3{
+    font-size: 15px;
+    padding: 11px 5px;
+}
+.ImageD{
+    background-color: whitesmoke;
+    color: black;
+    padding: 30px 0px;
+    font-family: serif;
+}
+.cloud7{
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+ }
+ .image{
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    padding-bottom: 0;
+    filter: grayscale(100%);
+ }
+ .image:hover{
+    filter: grayscale(0%);
+    border-bottom: 2px solid green;
+ }
+
+ .image2{
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    filter: grayscale(0%);
+    border: none;
+    border-bottom: 2px solid green;
+
+ }
+ .img9{
+    padding-top: 25px;
+ }
+ .bord{
+    border-bottom: 2px solid rgba(47, 209, 47, 0.3);
+    z-index: -1;
+
+ }
+ #img5{
+    width: auto;
+    height: 40px;
+ }
+ .mainImage{
+    width: 100%;
+    height: 550px;
+ }
+ .mainImage1{
+    width: 100%;
+    height: 550px;
+    background-image: url(A.jpeg);
+    background-size: 100% 100%;
+    position: relative;
+    
+ }
+ .innerDiv{
+    width: 47%;
+    height: 250px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    background-color: whitesmoke;
+    position: relative;
+
+
+ }
+ .innerDiv h3{
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 32px;
+    width: 90%;
+    position: relative;
+    top: 20%;
+    left: 5%;
+ }
+ .read{
+    position: absolute;
+    top:65%;
+    left: 5%;
+    background-color:rgb(30, 29, 29);
+    color: white;
+    height: 40px;
+    font-size: 13px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+ }
+ .mainImage2{
+    width: 100%;
+    height: 550px;
+    background-image: url(html-css-collage-concept-with-person\(1\).jpg);
+    background-size: 100% 100%;
+    position: relative;
+    display: none;
+ }
+ .mainImage3{
+    width: 100%;
+    height: 550px;
+    background-image: url(Hero_G_B48I7446_V2_459143049.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    display: none;
+ }
+ h5{
+    position: absolute;
+    top: 9%;
+    left: 5%;
+    font-size: 15px;
+ }
+ .mainImage4{
+    width: 100%;
+    height: 550px;
+    background-image: url(nutrition-boy-eating-peanuts.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    display: none;
+ }
+ .mainImage5{
+    width: 100%;
+    height: 550px;
+    background-image: url(IM2017110141HC_300dpi_1800000004419615.webp);
+    background-size: 100% 100%;
+    position: relative;
+    display: none;
+ }
+ .mainImage6{
+    width: 100%;
+    height: 550px;
+    background-image: url(xerographic-slide-printer-en.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    display: none;
+ }
+ #Indus{
+    background-color: whitesmoke;
+ }
+ .iconDiv{
+    width: 95%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    transition: 500ms;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+ }
+ .iconDiv:hover{
+    box-shadow: 5px 5px 20px rgb(113, 112, 112);
+    transform: scale(1.1);
+ }
+ .iconDiv i{
+    font-size: 25px;
+    color: rgb(39, 103, 152);
+    position: absolute;
+    top: 35%;
+    left: 10%;
+ }
+ .iconDiv a{
+    font-size: 15px;
+    color: rgb(39, 103, 152);
+    font-weight: bold;
+    text-decoration: none;
+ }
+ .iconDiv a:hover{
+ text-decoration: none;
+
+ }
+ #span2{
+    position: absolute;
+    top: 38%;
+    left: 25%;
+ }
+
+ #pop{
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+ }
+ #REG{
+    background-color: rgb(238, 238, 238);
+
+ }
+
+ .reg{
+    width: 100%;
+    background-image: url(rc115-oci-map-v19.webp);
+    height: 500px;
+    background-size: 100% 100%;
+    position: relative;
+
+ }
+ .innerReg{
+    width: 250px;
+    height: 110px;
+    font-size: 15px;
+    color: rgb(5, 68, 163);
+ }
+ 
+ #Foot{
+    background-color: rgb(38, 36, 36);
+    display: flex;
+    justify-content: center;
+    height: 400px;    
+ }
+ #FootMain{
+    display: flex;
+    justify-content: center; 
+    padding-top: 50px;
+ }
+ .foot3{
+    font-size: 22px;
+    color: gray;
+    padding-bottom: 20px;
+
+ }
+.foot2{
+    font-size: 15px;
+    color: white;
+    padding-top: 5px;
+    
+}
+#Foot a:hover{
+ color: gray;
+}
+.foot3 i{
+    display: none;
+}
+
+div a{
+    text-decoration: none;
+    font-size: 12px;
+}
+div ol li{
+    display: inline;
+    font-size: 12px;
+    padding: 5px;
+}
+
+div a i{
+    font-size: 20px;
+    padding: 5px;
+}
+
+#ADD{
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    height: 600px;
+    overflow: scroll;
+    position: relative;
+    display: none;
+
+}
+#ADD10{
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    height: 600px;
+    overflow: scroll;
+    position: relative;
+   display: none;
+
+}
+#ADD11{
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    height: 600px;
+    overflow: scroll;
+    position: relative;
+    display: none;
+}
+#ADD12{
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    height: 600px;
+    overflow: scroll;
+    position: relative;
+    display: none;
+}
+#ADD13{
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    height: 600px;
+    overflow: scroll;
+    position: relative;
+    display: none;
+}
+#ADD14{
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    height: 600px;
+    overflow: scroll;
+    position: relative;
+    display: none;
+    
+}
+#ADD15{
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    height: 600px;
+    overflow: scroll;
+    position: relative;
+    display: none;
+    
+}
+#ADD2{
+    padding: 30px 0px;
+}
+#ADD3{
+    padding-top: 30px;
+    
+}
+#ADD4{
+    padding: 15px 0px;
+}
+#ADD3 a{
+    color: white;
+}
+#ADD4 a{
+    color: white;
+}
+#ADD3 a:hover{
+color: rgb(204, 204, 50);
+}
+#ADD4  a:hover{
+color: rgb(204, 204, 50);
+}
+
+#ADD3 div{
+
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#ADD4 div{
+
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.add1{
+    font-size: 17px;
+    font-weight: bolder;
+
+}
+.add2 i{
+    display: none;
+}
+#project{
+    background: transparent;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    border: none;
+}
+#project2{
+    background: transparent;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    border: none;
+}
+#project3{
+    background: transparent;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    border: none;
+}
+#project4{
+    background: transparent;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    border: none;
+}
+#project5{
+    background: transparent;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    border: none;
+}
+#project6{
+    background: transparent;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    border: none;
+}
+#project7{
+    background: transparent;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    border: none;
+}
+.ADD6{
+    width: 95%;
+    height: 136px;
+    background-color: rgb(255, 255, 255, 0.9);
+    color: black;
+    border-radius: 10px;
+    position: relative;
+
+}
+.ADD7{
+    width: 90%;
+    height: 136px;
+    color: black;
+    border-radius: 10px;
+    position: relative;
+    position: absolute;
+    left: 4%;
+
+}
+.One1{
+    font-weight: bold;
+    padding-top: 10px;
+}
+.One2{
+    font-size: 13px;
+}
+.One3{
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+#textbox{
+    width: 56%;
+    height: 30px;
+    position: absolute;
+    left: 11%;
+    top:20%;
+    animation: anim 1s ;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+    display: none;
+}
+#textC{
+    width: 30px;
+    height: 30px;
+    top:20%;
+    color: gray;
+    background-color: white;
+    position: absolute;
+    left: 9.5%;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 2px;
+    display: none;
+    cursor: pointer;
+    
+
+}
+
+@keyframes anim {
+    0%{
+        width: 10px;
+    }
+    100%{
+        width: 56%;
+    }
+   
+    
+}
+
+
+.log{
+    width: 25%;
+    height: 400px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 20px black;
+    position: absolute;
+    top: 62px;
+    right: 20%;
+    z-index: 1000;
+    border-radius: 5px;
+    display: none;
+    
+}
+#loggo:hover{
+    text-decoration: none;
+
+}
+.log1{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+
+}
+.log2{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+
+}
+#login1{
+    width: 90%;
+    height: 40px;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 5%;
+    border: none;
+    margin-top: 20px;
+}  
+#login2{
+    width: 90%;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 5%;
+    border: 2px solid black;
+    margin-top: 20px;
+} 
+.pop{
+    width: 280px;
+    height: 200px;
+    position: fixed;
+    bottom: 1%;
+    right: 2%;
+    border-radius: 5px;
+    background-color: white;
+    z-index: 1;
+    text-align:center ;
+    display: none;
+   
+} 
+#close{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 2%;
+    font-size: larger;
+}
+.pop div a{
+    font-size: 20px;
+    color: rgb(10, 93, 176);
+    
+}
+.pop div a i{
+    font-size: 30px;
+    color: rgb(224, 26, 26);
+    padding-top: 10px;
+    
+ 
+}
+.pop div span a{
+    font-size: 12px;
+    color: rgb(10, 93, 176);
+    padding-top: 10px;
+    
+ 
+}
+.pop1{
+    font-size: 15px;
+    margin: 10px;
+    
+}
+.pop2{
+    font-size: 18px;
+    margin: 10px;
+    font-weight: bold;
+    
+}
+.pop3{
+    font-size: 13px;
+    margin: 10px;
+    
+}
+
+.pop5{
+    width: 120px;
+    height: 120px;
+    position: fixed;
+    bottom: 3%;
+    right: 5%;
+    border-radius: 5px;
+    background-color: white;
+    z-index: 1;
+    text-align:center ;
+    padding-top: 30px;
+
+} 
+.pop5 div i{
+    color: red;
+    font-size: 20px;
+}
+
+
+
+
+ /* ---------------------------------Media Query start here--------------------------------------------------- */
+
+ @media screen and (max-width: 1412px) {
+    #bod{
+        height: 100px;
+    }
+    .mainImage{
+        width: 100%;
+        height: 550px;
+         
+     }
+     .innerDiv{
+        width: 55%;
+        height: 260px;
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        background-color: whitesmoke;
+        position: relative;
+    
+    
+     }
+     .innerDiv h3{
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 32px;
+        width: 90%;
+        position: relative;
+        top: 20%;
+        left: 5%;
+     }
+     .read{
+        position: absolute;
+        top:65%;
+        left: 5%;
+        background-color:rgb(30, 29, 29);
+        color: white;
+        height: 40px;
+        font-size: 13px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+     }
+     #Foot{
+        background-color: rgb(38, 36, 36);
+        display: flex;
+        justify-content: center;
+        height: 450px;    
+     }
+   
+
+ }
+
+@media screen and (max-width: 1312px) {
+    header {
+        position: relative;
+        height: 90px;
+        background-color: rgb(53, 53, 53);
+        font-size: 20px;
+
+    }
+
+    ul {
+        position: absolute;
+        top: 50px;
+        left: 10px;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    #search {
+        color: white;
+        position: absolute;
+        top: 20px;
+        left: 60%;
+    }
+    #bod{
+        height: 50px;
+        margin-top: 20px;
+    }
+    .iconDiv i{
+        font-size: 25px;
+        color: rgb(39, 103, 152);
+        position: absolute;
+        top: 35%;
+        left: 10%;
+     }
+     .iconDiv a{
+        font-size: 14px;
+        color: rgb(39, 103, 152);
+        font-weight: bold;
+        text-decoration: none;
+     }
+     #span2{
+        position: absolute;
+        top: 38%;
+        left: 30%;
+     }
+     .add1{
+        font-size: 15px;
+     }
+ .ADD4{
+    font-size: 12px;
+ }
+ 
+
+}
+
+@media screen and (max-width: 994px) {
+    #viwe {
+        font-size: 15px;
+        background-color: rgb(22, 22, 22);
+        border: none;
+        width: 150px;
+        height: 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        display: none;
+    }
+
+    ul {
+        position: absolute;
+        top: 90px;
+        left: 0;
+        background-color: rgb(53, 53, 53, 0.4);
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        z-index: 10000;
+
+    }
+
+    header {
+        position: relative;
+        background-color: rgb(53, 53, 53);
+        font-size: 20px;
+
+    }
+
+    .sales {
+        font-size: 15px;
+        background-color: transparent;
+        border: 2px solid white;
+        width: 150px;
+        height: 40px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        display: none;
+    }
+
+    #search {
+        color: white;
+        position: absolute;
+
+        right: 30%;
+        display: block;
+        display: none;
+    }
+
+    #icon1 {
+        color: white;
+        position: absolute;
+        top: 20px;
+        right: 20%;
+    }
+
+    #icon2 {
+        color: white;
+        position: absolute;
+        top: 20px;
+        right: 10%;
+    }
+
+    #icon3 {
+        display: block;
+        position: absolute;
+        top: 20px;
+        color: white;
+        right: 30%;
+    }
+
+    #icon4 {
+        display: block;
+        position: absolute;
+        top: 20px;
+        color: white;
+        right: 25%;
+    }
+
+    #icon5 {
+        display: block;
+        position: absolute;
+        top: 20px;
+        color: white;
+        right: 20%;
+    }
+    .main_img_inner{
+        width: 80%;
+        height: 400px;
+        background-color: white;
+        position: absolute;
+        top: 55%;
+        left: 23%;
+        text-align: center;
+        
+    }
+    #main_img{
+        position: relative;
+        width: 80%;
+        height: 1000px;
+    
+    }
+    .img1{
+        width: 80%;
+        height: 400px;
+        position: absolute;
+        top: 10%;
+        left: 23%;
+        
+    }
+    #bod{
+        margin-top: 10px;
+        height: 80px;
+    }
+    #play{
+        width: 100px;
+        height: 20px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .bord{
+        border-bottom: 2px solid rgba(47, 209, 47, 0.3);
+        z-index: -1;
+        overflow: scroll;
+    
+     }
+     .mainImage{
+        width: 100%;
+        height: 550px;
+         
+     }
+     .innerDiv{
+        width: 40%;
+        height: 300px;
+        position: absolute;
+        top: 25%;
+        left: 5%;
+        background-color: whitesmoke;
+        position: relative;
+    
+    
+     }
+     .innerDiv h3{
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 25px;
+        width: 95%;
+        position: relative;
+        top: 10%;
+        left: 2.5%;
+     }
+     .read{
+        position: absolute;
+        top:70%;
+        left: 5%;
+        width: 250px;
+        background-color:rgb(30, 29, 29);
+        color: white;
+        height: 40px;
+        font-size: 12px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+     }
+    
+    #About1{
+        margin-top: 20px;
+    }
+    .iconDiv{
+        margin-top: 50px;
+    }
+    .reg{
+        width: 100%;
+        background-image: url(rc115-oci-map-v19.webp);
+        height: 400px;
+        background-size: 100% 100%;
+        position: relative;
+    
+     }
+     .foot5{
+        display: none;
+     }
+     .foot6{
+        display: none;
+     }
+     .foot7{
+        display: none;
+     }
+     .foot8{
+        display: none;
+     }
+     .foot9{
+        display: none;
+     }
+
+     .foot3{
+        font-size: 22px;
+        color: gray;
+        padding-top: 10px;
+    
+     }
+    .foot2{
+        font-size: 15px;
+        color: white;
+        padding-top: 0px;
+        
+    }
+    #FootMain{
+        display: flex;
+        justify-content: center; 
+        padding-top: 50px;
+     }
+     #Foot{
+        background-color: rgb(38, 36, 36);
+        display: flex;
+        justify-content: center;
+        height: 600px;   
+     }
+     .foot3 i{
+        display: block;
+    }
+    #ADD{
+        background-color: rgb(0, 0, 0, 0.8);
+        color: white;
+        height: 400px;
+        position: absolute;
+        right: 0px;
+        width: 300px;
+        top: 90px;
+        overflow: scroll;
+        z-index: 1000000;
+    }
+
+    #ADD2{
+        padding-top: 30px;
+       
+    }
+    .ADD4{
+        display: none;
+    }
+    #ADD3{
+        padding-top: 0px;
+     
+    }
+    #ADD4{
+        padding: 0px;
+    }
+    .add2{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #ADD3 div{
+    
+        padding-top: 8px;
+        font-size: 14px;
+        
+    }
+    #ADD4 div{
+    
+        padding-top: 5px;
+        font-size: 14px;
+    }
+    .add2 i{
+        display: block;
+    }
+    #ADD{
+        background-color: rgb(0, 0, 0, 0.8);
+        color: white;
+        height: 600px;
+        overflow: scroll;
+        position: relative;
+        display: none;
+        z-index: 100000;
+    
+    }
+   
+   
+}
+
+@media screen and (max-width: 768px) {
+    #icon3 {
+        display: block;
+        position: absolute;
+        top: 20px;
+        color: white;
+        right: 40%;
+    }
+
+    #icon4 {
+        display: block;
+        position: absolute;
+        top: 20px;
+        color: white;
+        right: 30%;
+    }
+
+    #icon5 {
+        display: block;
+        position: absolute;
+        top: 20px;
+        color: white;
+        right: 20%;
+    }
+    .span1{
+        color: black;
+        font-size: 20px;
+        font-family: serif;
+        padding: 5px;
+    }
+    .span_Div{
+        width: 80%;
+        text-align: center;
+        position:absolute;
+        left: 10%;
+    }
+    .span2{
+        color: gray;
+        font-size: medium;
+        
+    }
+    #info1{
+        background-image: url("rh02-panel2.jpg");
+        background-size: 100% 100%;
+         color: white;
+         height: 250px;
+         z-index: -1;
+         display: flex;
+         justify-content: start;
+         align-items: start;
+         padding-left: 20px;
+        
+     }
+     .info2{
+        
+      
+         color: white;
+         height: 90%;
+         width: 50%;
+         text-align: start;
+     
+     
+     }
+     #info11{
+        background-image: url("rh02-panel1.jpg");
+        background-size: 100% 100%;
+         color: white;
+         height: 250px;
+         z-index: -1;
+         display: flex;
+         justify-content:start;
+         align-items: start;
+         text-align: start;
+         padding-left: 20px;
+        
+     }
+     .info12{
+        
+      
+         color: white;
+         height: 90%;
+         width: 50%;
+         text-align: start;
+         margin-top: 5%;
+     } 
+   .cloud1{
+    font-size: 25px;
+   }
+   .cloud4{
+    font-size: 20px;
+   }
+   .cloud5{
+    font-size: 12px;
+   }
+   .cloud6{
+    font-size: 12px;
+   }
+   .bord{
+    border-bottom: none;
+    overflow: scroll;
+
+ }
+ .innerDiv{
+    width: 60%;
+    height: 200px;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    background-color: whitesmoke;
+    position: relative;
+
+
+ }
+ .innerDiv h3{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    width: 90%;
+    position: relative;
+    top: 10%;
+    left: 5%;
+ }
+ .read{
+    position: absolute;
+    top:70%;
+    left: 5%;
+    width: 200px;
+    background-color:rgb(30, 29, 29);
+    color: white;
+    height: 40px;
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+ }
+ .reg{
+    width: 100%;
+    background-image: url(rc115-oci-map-v19.webp);
+    height: 350px;
+    background-size: 100% 100%;
+    position: relative;
+
+ }
+ .innerReg{
+    width: 200px;
+    height: 110px;
+    font-size: 12px;
+    color: rgb(5, 68, 163);
+ }
+ .bord{
+   overflow-wrap: scroll;
+   height: 70px;
+
+
+ }
+ .image{
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    padding-bottom: 0;
+    filter: grayscale(100%);
+ }
+ .image:hover{
+    filter: grayscale(0%);
+    border-bottom: 2px solid green;
+ }
+
+ .image2{
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    filter: grayscale(0%);
+    border: none;
+    border-bottom: 2px solid green;
+
+ }
+ .img9{
+    padding-top: 10px;
+ }
+
+ #img5{
+    width: auto;
+    height: 40px;
+ }
+
+    
+
+}
+@media screen and (max-width: 578px) {
+
+    .span1{
+        color: black;
+        font-size: 16px;
+        font-family: serif;
+        padding: 5px;
+    }
+    .span_Div{
+        width: 80%;
+        text-align: center;
+        position:absolute;
+        left: 10%;
+    }
+    .span2{
+        color: gray;
+        font-size: x-small;
+        
+    }
+    .main_img_inner{
+        width: 95%;
+        height: 250px;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 14.5%;
+        text-align: center;
+        
+    }
+    #main_img{
+        position: relative;
+        width: 80%;
+        height: 600px;
+    
+    }
+    .img1{
+        width: 95%;
+        height: 200px;
+        position: absolute;
+        top: 10%;
+        left: 14.5%;
+        
+    }
+    #play{
+        width: 100px;
+        height: 20px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .image{
+        width: 60%;
+        height: 100px;
+        padding: 0px;
+        margin-top: 50px;
+        padding-bottom: 0;
+        filter: grayscale(100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 20%;
+     }
+     .image2{
+        width: 60%;
+        height: 70px;
+        padding: 0px;
+        filter: grayscale(0%);
+        border: none;
+        border-bottom: 2px solid green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 20%;
+    
+     }
+     .img9{
+        padding-top: 0px;
+     }
+     .cloud5{
+        font-size: 11px;
+        padding-left: 10px;
+       }
+       #img6{
+        width: 120px;
+        height: 40px;
+       }
+       .reg{
+        width: 100%;
+        background-image: url(rc115-oci-map-v19.webp);
+        height: 300px;
+        background-size: 100% 100%;
+        position: relative;
+    
+     }
+     #ADD{
+        background-color: rgb(0, 0, 0, 0.8);
+        color: white;
+        height: 400px;
+        position: absolute;
+        right: 0px;
+        width: 100%;
+        top: 90px;
+        overflow: scroll;
+        z-index: 1000000;
+
+    
+    }
+    .pop{
+        width: 250px;
+        height: 400px;
+        position: fixed;
+        bottom: 5%;
+        overflow: hidden;
+        right: 2%;
+        border-radius: 5px;
+        background-color: white;
+        z-index: 1;
+        text-align:center ;
+        display: none;
+       
+    } 
+    #ADD10{
+        background-color: rgb(0, 0, 0, 0.8);
+        color: white;
+        height: 600px;
+        overflow: scroll;
+        position: relative;
+       display: none;
+       z-index: 100000;
+    
+    }
+    #ADD11{
+        z-index: 100000;
+    }
+    #ADD12{
+        z-index: 100000;
+    }
+    #ADD13{
+        z-index: 100000;
+    }
+    #ADD14{
+        z-index: 100000;
+    }
+    #ADD15{
+        z-index: 100000;
+    }
+     
+   
+
+
+}
+@media screen and (max-width: 512px) {
+    .pop{
+        height: 100px;
+     }
+     .cloud1{
+        font-size: 20px;
+       }
+       .cloud4{
+        font-size: 17px;
+       }
+       .cloud5{
+        font-size: 11px;
+        padding-left: 0;
+       }
+       .cloud6{
+        font-size: 10px;
+       }
+       .bord{
+        border-bottom: none;
+        overflow: scroll;
+    
+     }
+     .innerDiv{
+        width: 60%;
+        height: 180px;
+        position: absolute;
+        top: 55%;
+        left: 5%;
+        background-color: whitesmoke;
+        position: relative;
+    
+    
+     }
+     .innerDiv h3{
+        font-size: 10px;
+        font-weight: bold;
+        line-height: 20px;
+        width: 90%;
+        position: relative;
+        top: 10%;
+        left: 5%;
+     }
+     .read{
+        position: absolute;
+        top:70%;
+        left: 5%;
+        width: 150px;
+        background-color:rgb(30, 29, 29);
+        color: white;
+        height: 30px;
+        font-size: 8px;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+     }
+     .reg{
+        width: 100%;
+        background-image: url(rc115-oci-map-v19.webp);
+        height: 250px;
+        background-size: 100% 100%;
+        position: relative;
+    
+     }
+     .innerReg{
+        width: 200px;
+        height: 110px;
+        font-size: 10px;
+        color: rgb(5, 68, 163);
+     }
+     #ADD3 div{
+
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    #ADD4 div{
+    
+        padding-top: 5px;
+        font-size: 10px;
+    }
+    .add1{
+        font-size: 12px;
+    }
+    
+   
+
+}
+
+@media screen and (max-width: 412px) {
+    .racle {
+        display: none;
+    }
+
+    #icon3 {
+        display: block;
+        position: absolute;
+        top: 20px;
+        color: white;
+        left: 40%;
+        font-size: 15px;
+    }
+
+    #icon4 {
+        display: block;
+        position: absolute;
+        top: 20px;
+        color: white;
+        left: 50%;
+        font-size: 15px;
+    }
+
+    #icon5 {
+        display: block;
+        position: absolute;
+        top: 20px;
+        color: white;
+        left: 60%;
+        font-size: 15px;
+    }
+
+    .ora {
+
+        letter-spacing: 1px;
+        color: rgb(252, 71, 0);
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bold;
+        left: 5%;
+    }
+    .main_img_inner{
+        width: 100%;
+        height: 300px;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 14.5%;
+        text-align: center;
+        
+    }
+    #main_img{
+        position: relative;
+        width: 80%;
+        height: 700px;
+    
+    }
+    .img1{
+        width: 100%;
+        height: 250px;
+        position: absolute;
+        top: 10%;
+        left: 14.5%;
+        
+    }
+    #info11{
+        background-image: url("rh02-panel1.jpg");
+        background-size: 100% 100%;
+         color: white;
+         height: 300px;
+         z-index: -1;
+         display: flex;
+         justify-content:start;
+         align-items: start;
+         text-align: start;
+         padding-left: 20px;
+        
+     }
+     #info1{
+        background-image: url("rh02-panel2.jpg");
+        background-size: 100% 100%;
+         color: white;
+         height: 300px;
+         z-index: -1;
+         display: flex;
+         justify-content: start;
+         align-items: start;
+         padding-left: 20px;
+        
+     }
+     .cloud1{
+        font-size: 18px;
+       }
+       .cloud4{
+        font-size: 15px;
+       }
+       .cloud5{
+        font-size: 10px;
+       }
+       .cloud6{
+        font-size: 9px;
+       }
+       .reg{
+        width: 100%;
+        background-image: url(rc115-oci-map-v19.webp);
+        height: 200px;
+        background-size: 100% 100%;
+        position: relative;
+    
+     }
+     .innerReg{
+        width: 150px;
+        height: 110px;
+        font-size: 8px;
+        color: rgb(5, 68, 163);
+     }
+   
+}
+@media screen and (max-width: 312px) {
+    .cloud1{
+        font-size: 16px;
+       }
+       .cloud4{
+        font-size: 13px;
+       }
+       .cloud5{
+        font-size: 8px;
+       }
+       .cloud6{
+        font-size: 6px;
+       }
+        .innerDiv{
+        width: 60%;
+        height: 200px;
+        position: absolute;
+        top: 55%;
+        left: 5%;
+        background-color: whitesmoke;
+        position: relative;
+    
+    
+     }
+     .innerDiv h3{
+        font-size: 10px;
+        font-weight: bold;
+        line-height: 20px;
+        width: 90%;
+        position: relative;
+        top: 10%;
+        left: 5%;
+     }
+     .read{
+        position: absolute;
+        top:80%;
+        left: 5%;
+        width: 100px;
+        background-color:rgb(30, 29, 29);
+        color: white;
+        height: 20px;
+        font-size: 5px;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+     }
+     .innerReg{
+        width: 150px;
+        height: 110px;
+        font-size: 7px;
+        color: rgb(5, 68, 163);
+     }
+}
+
+
+/* Contact Page CSS Start here  */
+
+#ConMain{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(243, 232, 232);
+  
+}
+#CON{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+#ConA{
+    width: 100%;
+    position: relative;
+    height: 250px;
+    margin-top: 10px;
+    left: 0;
+
+}
+
+.con1{
+    font-size: 35px;
+    font-family: serif;
+    color: black;
+    padding: 10px;
+    position: absolute;
+    top: 10%;
+}
+.con2{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: rgb(40, 39, 39);
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 10px;
+    position: absolute;
+    top: 50%;
+    margin: 20px;
+    
+}
+.con3{
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+.con3 img{
+    position: absolute;
+    bottom: 0;
+    width: fit-content;
+    height: 100%;
+    width: 100%;
+    
+}
+.How{
+    font-size: 35px;
+    font-weight: bold;
+}
+.Can a{
+    font-size: 14px;
+    color: rgb(5, 89, 144);
+}
+#ConAcc1{
+    background-color: rgb(55, 53, 53);
+    height: 130px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    display: block;
+    position: relative;
+}
+#Q{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+.Q1{
+    width: 95%;
+    height: 300px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.speak{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.speak1{
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+.drom{
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    color: white;
+}
+#Q5{
+    background-color: rgb(211, 211, 210);
+    border-radius: 10px;
+    margin-top: -20px;
+}
+
+.Q1a{
+    font-size: 40px;
+    color: black;   
+    width: 200px; 
+
+}
+.Q1a i{
+    font-size: 40px;
+    color: black;   
+    width: 50px; 
+    width: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+.Q1b{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 10px;
+    
+ 
+}
+.Q1c{
+    font-size: 40px;
+    color: black;   
+    width: 300px; 
+
+}
+.Q1c a{
+    font-size: 13px;
+    color: rgb(4, 115, 170);
+    padding-left: 50px;
+   
+  
+}
+
+
+
+
+/* Contact Page CSS Start here  */
+
+
+
+
+#singUp{
+    width: 100%;
+    height: 700px;
+    background: url(rh02-panel2.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+.singIn{
+    width: 400px;
+    height: 400px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+
+}
+.singIn form label{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+.singIn form input{
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid gray ;
+    margin-left: 10px;
+    color: black;
+
+}
+
+#sub{
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+#vali{
+    color: red;
+}
+.singIn div a{
+    color: green;
+    padding-top: 30px;
+    
+}
+.singIn div input{
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: transparent;
+    border-bottom: 2px solid gray ;
+    margin-top: 20px;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.singIn div input:hover{
+    background-color: green;
+    border: none;
+    color: white;
+   
+}
+
